@@ -1,0 +1,21 @@
+.select-list{
+    button{
+
+    }
+
+    .select-container{
+        visibility: hidden;
+        opacity: 0;
+
+        &.open{
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    .select-option{
+        &:focus{
+            border: 5px solid #000;
+        }
+    }
+}
